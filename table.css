@@ -1,0 +1,68 @@
+body {
+  background-color: #ffffffd5;
+  direction: rtl;
+}
+.border th {
+  border: 3px solid rgb(3, 3, 31);
+  padding: 10px;
+}
+.border,
+.border tr td {
+  border-collapse: collapse;
+  border: 3px solid rgb(139, 0, 86);
+  padding: 10px;
+}
+.borders,
+.borders tr,
+.borders td {
+  border: 3px solid rgb(59, 104, 133);
+  border-collapse: collapse;
+  padding: 10px;
+}
+.odd-row-color td:nth-child(odd) {
+  background-color: rgb(250, 248, 131);
+}
+.link {
+  background: rgb(219, 143, 238);
+}
+.link:link {
+  background-color: rgb(134, 235, 180);
+}
+.link:visited {
+  background-color: orange;
+  color: black;
+}
+.link:active {
+  background: chartreuse;
+  color: crimson;
+}
+.link:hover {
+  background: deeppink;
+  color: floralwhite;
+  text-decoration: none;
+}
+.table3 {
+  width: 100%;
+  border: none;
+  border-collapse: collapse;
+}
+.table3 tr:nth-child(even) {
+  background: rgb(75, 86, 97);
+}
+.table3 tr:first-child {
+  border-bottom: 1px solid red;
+}
+.table3 tr :first-child {
+  border-right: 2px solid red;
+}
+.rows-border {
+  border: 2px solid green;
+  border-collapse: collapse;
+  border-left: none;
+  border-right: none;
+}
+.rows-border tr td {
+  border: 2px solid green;
+  border-left: none;
+  border-right: none;
+}
